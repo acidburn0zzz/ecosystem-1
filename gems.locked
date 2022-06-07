@@ -6,8 +6,14 @@ GIT
       activerecord (>= 3.2.0)
 
 GEM
-  remote: https://rubygems.org/
   remote: https://gems.contribsys.com/
+  specs:
+    sidekiq-pro (4.0.5)
+      concurrent-ruby (>= 1.0.5)
+      sidekiq (>= 5.2.1)
+
+GEM
+  remote: https://rubygems.org/
   specs:
     actioncable (5.2.3)
       actionpack (= 5.2.3)
@@ -85,7 +91,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -176,9 +182,6 @@ GEM
       rack (>= 1.5.0)
       rack-protection (>= 1.5.0)
       redis (>= 3.3.5, < 5)
-    sidekiq-pro (4.0.5)
-      concurrent-ruby (>= 1.0.5)
-      sidekiq (>= 5.2.1)
     smart_kv (0.2.7)
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
